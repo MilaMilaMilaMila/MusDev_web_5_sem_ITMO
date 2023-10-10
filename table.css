@@ -1,0 +1,68 @@
+:root {
+    --magenta: #bb2649;
+    --peachBrown: #DD5858;
+    --darkGrey: #928080;
+    --strongGrey: #614444;
+    --lightGrey: #D9D9D9;
+    --whiteBGColor: white;
+    --blackP: black;
+}
+
+body{
+    background-color: var(--whiteBGColor);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+}
+
+.grid-scroller {
+    overflow: scroll;
+    height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 5fr 5fr 5fr;
+    /*max-width: 100%;*/
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.cell {
+    background: var(--whiteBGColor);
+    padding: 5px;
+    text-align: left;
+    border: solid 1px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 35px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: var(--magenta);
+    color: var(--whiteBGColor);
+    border: solid var(--magenta) 1px;
+    border-bottom: solid var(--blackP) 1px;
+    font-size: 30px;
+}
+
+.header_cell {
+    font-size: 22px;
+}
+
+.cell_parity {
+    background: var(--lightGrey);
+}
+
+
+
