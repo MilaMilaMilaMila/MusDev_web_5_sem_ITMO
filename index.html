@@ -32,15 +32,17 @@
     <div class="headerInfo">
       <h1 class="headerH1">MusDev</h1>
       <h2 class="headerH2">Ресурс для создания и публикации музыки</h2>
-      <q class="pStyledGrey">Раз и два и три и че</q>
+      <q class="pStyledGrey" id="pStyledGrey">Раз и два и три и че</q>
     </div>
 
     <nav class="headerNav">
       <ul>
-        <li class="pStyledBlack"><a href="#">О нас</a></li>
-        <li class="pStyledBlack"><a href="#">Поддержка</a></li>
+        <li class="pStyledBlack about" id="pStyledBlack about"><a href="about_us.html" target="_blank">О нас</a></li>
+        <li class="pStyledBlack support" id="pStyledBlack support"><a href="support.html" target="_blank">Поддержка</a></li>
       </ul>
     </nav>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="js/index.js"></script>
 
   </div>
 
@@ -128,7 +130,7 @@
 </main>
 
 <footer class="footer">
-  <div class="footerContent">
+  <div class="footerContent" id="footerContent">
     <ul>
       <li>
         <a class="githubLink" href="https://github.com/MilaMilaMilaMila/MusDev_web_5_sem_ITMO" target="_blank">

@@ -506,3 +506,7 @@ main {
   height: 40px;
 }
 
+.active_link {
+  background-color: var(--magenta);
+
+}

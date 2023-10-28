@@ -1,0 +1,51 @@
+.b-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    margin:15%;
+    padding:10px;
+    font-size:30px;
+    color: #614444;
+    font-size: 20px;
+}
+
+.b-container > a {
+    text-decoration: none;
+    color: #bb2649;
+}
+
+.b-popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin:40px auto 0px auto;
+    /*width:100px;*/
+    /*height: 40px;*/
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.message {
+    width: 550px;
+    height: 350px;
+}
