@@ -23,8 +23,12 @@ window.onload = function (){
     }
 }
 
+function redirectToStudentsPage() {
+    window.location.href = "students.html";
+}
 
-
+document.getElementById('first-button')
+    .addEventListener('click', () => window.open(''));
 
 
 
