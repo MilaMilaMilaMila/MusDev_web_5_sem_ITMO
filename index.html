@@ -107,10 +107,20 @@
     </div>
 
     <div class="mainContentData">
-      <section class="statistics">
+      <section id="statistics" class="statistics">
         <div class="active">
-          <h2 class="styledH3">Моя активность</h2>
-          <img class="activeImg" src="statActive.jpg" alt="statActive">
+          <h2 class="styledH3">Уведомления</h2>
+
+          <div id="preloader" class="preloader">
+            <div class="preloader__spinner"></div>
+          </div>
+
+          <script>
+            // Скрипт для скрытия preloader после загрузки контента
+            window.addEventListener('load', function() {
+              getCom()
+            });
+          </script>
         </div>
 
       </section>
